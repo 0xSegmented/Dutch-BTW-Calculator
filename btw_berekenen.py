@@ -10,8 +10,8 @@ for x in range(20):
             print(f"\n invoer: {totalone}\n")
             print(f"\nbtw los: ", zonder)
             print(f"excl btw: ", excl)
-        elif btwone == 8:
-            zonderi = totalone / 100 * 8
+        elif btwone == 9:
+            zonderi = totalone / 100 * 9
             excli = totalone - zonderi
             print(f"\n invoer: {totalone}\n")
             print(f"\nbtw los: ", zonderi)
@@ -25,8 +25,8 @@ for x in range(20):
             totalz = totaltwo * 1.21
             print(f"\n invoer: {totaltwo}\n")
             print(f"Bedrag + btw: {totalz}")
-        elif btwtwo == 8:
-            totalx = totaltwo * 1.08
+        elif btwtwo == 9:
+            totalx = totaltwo * 1.09
             print(f"\n invoer: {totaltwo}\n")
             print(f"\n Bedrag + btw: {totalx}")
         else:
